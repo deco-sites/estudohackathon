@@ -8,18 +8,18 @@ function GlobalTags() {
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href={asset("/favicon-32x32.png")}
+        href={asset("/favicon.ico")}
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href={asset("/favicon-16x16.png")}
+        href={asset("/favicon.ico")}
       />
       <link
         rel="shortcut icon"
         type="image/x-icon"
-        href={asset("/favicon-32x32.png")}
+        href={asset("/favicon.ico")}
       />
 
       {/* Web Manifest */}
@@ -100,6 +100,49 @@ function GlobalTags() {
             font-display: swap;
             src: url(${
             asset("/fonts/i7dOIFdwYjGaAMFtZd_QA1ZbYFeQGQyU.woff2")
+          }) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(${
+            asset("/fonts/lato-bold.woff2")
+          }) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(${
+            asset("/fonts/lato-regular.woff2")
+          }) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(${
+            asset("/fonts/montserrat-bold.woff2")
+          }) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-display: swap;
+            src: url(${
+            asset("/fonts/montserrat.woff2")
           }) format('woff2');
             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
           }
